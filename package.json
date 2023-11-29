@@ -1,0 +1,11 @@
+{
+  "name": "vest-langchain-jupyter-notebook",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build --progress plain --tag vest-langchain-jupyter-notebook:latest ."
+  },
+  "author": "Karsten Rabe",
+  "license": "MIT"
+}

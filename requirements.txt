@@ -1,0 +1,10 @@
+chromadb==0.4.2
+langchain==0.0.342
+pypdf==3.12.2
+python-dotenv==1.0.0
+ibm-watson==7.0.1
+sentence-transformers==2.2.2
+ibm-watson-machine-learning==1.0.327
+transformers==4.34.0
+notebook==7.0.6
+jupyterhub==4.0.2
