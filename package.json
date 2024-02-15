@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prebuild": "docker tag vest-langchain-jupyter-notebook:latest vest-langchain-jupyter-notebook:backup",
     "build": "docker build --progress plain --tag vest-langchain-jupyter-notebook:latest ."
   },
   "author": "Karsten Rabe",
