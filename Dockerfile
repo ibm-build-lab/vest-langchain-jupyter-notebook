@@ -19,4 +19,7 @@ COPY langchain-intro.ipynb /home/jovyan/work/langchain-intro.ipynb
 COPY langchain-summarization.ipynb /home/jovyan/work/langchain-summarization.ipynb
 COPY what-is-generative-ai.pdf /home/jovyan/work/what-is-generative-ai.pdf
 
+# Copy additional lab files
+COPY rag-with-discovery.ipynb /home/jovyan/work/rag-with-discovery.ipynb
+
 RUN rm requirements.txt
